@@ -12,5 +12,5 @@ At folder VAD you can find three audios with their correspond TextGrid file. We 
 
 At our paper, we experimented with two speech enhancement procedures: loudness normalization and noise reduction. We perform loudness normalization following the [EBU R128 standard](https://www.ebu.ch/files/live/sites/ebu/files/News/2011/r128%255B1%255D.pdf). The normalization is done over sliding windows, which results in experimenter, participant and background noises having similar loudness after processing. This second enhancement procedure is implemented using the [FullSubNet CNN model](https://arxiv.org/abs/2010.15508), which effectively subtracts stationary ambient noise and some of transient noises, but not reverberation. 
 
-At folder "Speech Enhancement" it can be found three examples of audios with their different combination of procedures. The name of the file indicate the order that the systems were apply. 
+At folder "SP-Enhancement" it can be found three examples of audios with their different combination of procedures. The name of the file indicate the order that the systems were apply. 
 
